@@ -31,3 +31,21 @@ TEST_DB=mytestdatabase
 ```
 
 ## Usage
+
+To run the script:
+```bash
+./duplicate_db.sh
+```
+
+The script will prompt you for your MySQL password (if not provided in the .env file), export the specified source database, create (and drop if it already exists) the test database, and then import the data into the test database.
+
+## Security 
+
+This script prompts for the database password to avoid storing sensitive information in the script or the .env file. Ensure your .env file is not tracked by version control systems (e.g., listed in .gitignore) to keep your credentials secure.
+
+## Contributing
+
+Contributions to improve the script or address issues are welcome. Please feel free to submit a pull request or open an issue in the repository.
+
+## License
+
