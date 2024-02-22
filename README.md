@@ -1,6 +1,14 @@
 # Shell Script for Automating Database Duplication
 The following script automates the creation of a test database by duplicating an existing database. It exports the schema (and optionally the data), creates a new test database, and imports the schema/data into the test database.
 
+## Table of Contents
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Commands](#commands)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Prerequisites
 
 - MySQL Server: The script is designed for MySQL databases. Ensure you have MySQL server installed and accessible.
