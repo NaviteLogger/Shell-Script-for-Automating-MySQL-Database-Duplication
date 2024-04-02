@@ -19,8 +19,8 @@ The following script automates the creation of a test database by duplicating an
 Clone this repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/NaviteLogger/Shell-Script-for-Automating-Database-Duplication.git
-cd Shell-Script-for-Automating-Database-Duplication
+git clone https://github.com/NaviteLogger/Shell-Script-for-Automating-MySQL-Database-Duplication.git
+cd Shell-Script-for-Automating-MySQL-Database-Duplication
 ```
 
 Ensure the script file (duplicate_db.sh) is executable:
