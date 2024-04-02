@@ -11,7 +11,7 @@ The following script automates the creation of a test database by duplicating an
 
 ## Prerequisites
 
-- MySQL Server: The script is designed for MySQL databases. Ensure you have MySQL server installed and accessible.
+- MySQL Server: One of the scripts is designed for MySQL databases. Ensure you have MySQL server installed and accessible.
 - `.env` File: Database credentials and other configurations are managed through a `.env` file in the project directory.
 
 ## Installation
@@ -25,7 +25,7 @@ cd Shell-Script-for-Automating-Database-Duplication
 
 Ensure the script file (duplicate_db.sh) is executable:
 ```bash
-chmod +x duplicate_db.sh
+chmod +x duplicate_mysql_db.sh
 ```
 
 ## Configuration
@@ -42,7 +42,7 @@ TEST_DB=mytestdatabase
 
 To run the script:
 ```bash
-./duplicate_db.sh
+./duplicate_mysql_db.sh
 ```
 
 The script will prompt you for your MySQL password (if not provided in the .env file), export the specified source database, create (and drop if it already exists) the test database, and then import the data into the test database.
